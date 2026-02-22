@@ -1,25 +1,25 @@
 const Service = () => {
   const services = [
     {
-      image: '/image1.jpg',
+      image: '/image1.png',
       title: 'Premium Tacos',
       description: 'Authentic Mexican tacos with a unique twist',
       features: ['Fresh ingredients', 'Multiple varieties', 'Signature sauces']
     },
     {
-      image: '/image3.jpg',
+      image: '/image3.png',
       title: 'Special Combos',
       description: 'Complete meals that satisfy your cravings',
       features: ['Best value', 'Large portions', 'Popular choice']
     },
     {
-      image: '/image4.jpg',
+      image: '/image4.png',
       title: 'Fresh Daily',
       description: 'We prepare everything fresh every day',
       features: ['No preservatives', 'Quality guaranteed', 'Made to order']
     },
     {
-      image: '/image5.jpg',
+      image: '/image5.png',
       title: 'Fast Service',
       description: 'Quick preparation without compromising quality',
       features: ['Express orders', 'Efficient team', 'No long waits']
@@ -31,7 +31,7 @@ const Service = () => {
       features: ['Modern interior', 'Family friendly', 'Clean space']
     },
     {
-      image: '/image7.jpg',
+      image: '/image7.png',
       title: 'Takeaway',
       description: 'Perfect packaging for on-the-go meals',
       features: ['Easy pickup', 'Stays hot', 'Eco-friendly']
@@ -120,18 +120,18 @@ const Service = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
-            href="tel:0549415993"
+            href="tel:0598620000"
             className="bg-white text-red-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-xl flex items-center justify-center gap-2"
           >
             <span>📞</span>
-            <span>0549 41 59 93</span>
+            <span>05 98 62 00 00</span>
           </a>
           <a 
-            href="tel:0656415993"
+            href="tel:0698450000"
             className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-xl flex items-center justify-center gap-2"
           >
             <span>📞</span>
-            <span>0656 41 59 93</span>
+            <span>06 98 45 00 00</span>
           </a>
         </div>
         </div>

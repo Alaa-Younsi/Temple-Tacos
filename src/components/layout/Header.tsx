@@ -14,16 +14,16 @@ const Header = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-orange-500 rounded-full blur-xl opacity-75 group-hover:opacity-100 transition-opacity"></div>
             <img 
               src="/icon.png" 
-              alt="R'tacos Logo"
+              alt="Temple Tacos Logo"
               className="relative w-32 h-32 object-contain rounded-full border-4 border-white shadow-2xl group-hover:scale-110 transition-transform duration-300"
             />
           </div>
           
           <div className="space-y-2">
             <h1 className="text-7xl font-black bg-gradient-to-r from-orange-400 via-red-400 to-yellow-400 bg-clip-text text-transparent drop-shadow-2xl">
-              R'tacos
+              Temple Tacos
             </h1>
-            <p className="text-3xl text-orange-200 font-bold tracking-widest">Birkhadem</p>
+            <p className="text-3xl text-orange-200 font-bold tracking-widest">Taco Place</p>
             <p className="text-lg text-orange-300/80 italic">Authentic Flavors, Modern Twist</p>
           </div>
         </div>
@@ -36,11 +36,11 @@ const Header = () => {
           </div>
           
           <a 
-            href="tel:0549415993"
+            href="tel:0598620000"
             className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 rounded-xl px-6 py-4 transition-all shadow-xl hover:scale-105"
           >
             <p className="text-orange-100 text-sm font-semibold">📞 Call Us</p>
-            <p className="text-white text-xl font-bold">0549 41 59 93</p>
+            <p className="text-white text-xl font-bold">05 98 62 00 00</p>
           </a>
         </div>
       </div>

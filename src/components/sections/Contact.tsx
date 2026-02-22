@@ -38,18 +38,18 @@ const Contact = () => {
             
             <div className="space-y-4">
               <a 
-                href="tel:0549415993" 
+                href="tel:0598620000" 
                 className="block bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/30 text-white text-center py-4 px-6 rounded-xl font-bold text-xl transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 <span className="block text-sm text-orange-200 mb-1">Primary Line</span>
-                📞 0549 41 59 93
+                📞 05 98 62 00 00
               </a>
               <a 
-                href="tel:0656415993" 
+                href="tel:0698450000" 
                 className="block bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/30 text-white text-center py-4 px-6 rounded-xl font-bold text-xl transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 <span className="block text-sm text-orange-200 mb-1">Secondary Line</span>
-                📞 0656 41 59 93
+                📞 06 98 45 00 00
               </a>
             </div>
           </div>
@@ -67,11 +67,11 @@ const Contact = () => {
             </div>
             
             <a 
-              href="mailto:rtacosbirkhadem2024@gmail.com"
+              href="mailto:contact@templetacos.com"
               className="block bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/30 text-white text-center py-6 px-6 rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg break-all"
             >
               <span className="block text-sm text-orange-200 mb-2">Send us an email</span>
-              ✉️ rtacosbirkhadem2024@gmail.com
+              ✉️ contact@templetacos.com
             </a>
           </div>
 
@@ -89,22 +89,20 @@ const Contact = () => {
 
             <div className="space-y-4">
               <a 
-                href="https://www.instagram.com/rtacos_birkhadem?igsh=MTh1NWg5NXBzbHM5cA=="
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(event) => event.preventDefault()}
                 className="flex items-center justify-center gap-3 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white py-4 px-6 rounded-xl font-bold transition-all duration-300 hover:scale-105 shadow-lg"
               >
-                <img src="/instagram.jpg" alt="Instagram" className="w-6 h-6 rounded-full" />
+                <img src="/instagram.png" alt="Instagram" className="w-6 h-6 rounded-full" />
                 <span>Instagram</span>
               </a>
               
               <a 
-                href="https://www.facebook.com/profile.php?id=61565803031735&mibextid=ZbWKwL"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(event) => event.preventDefault()}
                 className="flex items-center justify-center gap-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white py-4 px-6 rounded-xl font-bold transition-all duration-300 hover:scale-105 shadow-lg"
               >
-                <img src="/facebook.jpg" alt="Facebook" className="w-6 h-6 rounded-full" />
+                <img src="/facebook.png" alt="Facebook" className="w-6 h-6 rounded-full" />
                 <span>Facebook</span>
               </a>
             </div>
@@ -119,13 +117,12 @@ const Contact = () => {
                 <span>📍</span>
                 <span>Visit Our Location</span>
               </h3>
-              <p className="text-center text-orange-100 mt-2">Birkhadem, Algiers</p>
+              <p className="text-center text-orange-100 mt-2">Temple Tacos, Algiers</p>
             </div>
             
             <a 
-              href="https://www.google.com/maps/place/R'tacos+birkhadem/@36.7213817,3.0428098,17z/data=!3m1!4b1!4m6!3m5!1s0x128fb212c0d2a3bf:0xfe7c19722ace9d47!8m2!3d36.7213817!4d3.0453847!16s%2Fg%2F11fx2fhpfx?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={(event) => event.preventDefault()}
               className="block relative group"
             >
               <img 

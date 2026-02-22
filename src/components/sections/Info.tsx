@@ -26,7 +26,7 @@ const Info = () => {
           Information
         </h2>
         <p className="text-xl text-orange-200 max-w-2xl mx-auto">
-          Everything you need to know about R'tacos Birkhadem
+          Everything you need to know about Temple Tacos
         </p>
         <div className="mt-6 flex justify-center gap-2">
           <div className="w-20 h-1 bg-gradient-to-r from-red-600 to-orange-600 rounded-full"></div>
@@ -106,15 +106,14 @@ const Info = () => {
               <div className="text-center space-y-4">
                 <div>
                   <p className="text-gray-600 mb-2">Address</p>
-                  <p className="text-2xl font-bold text-gray-800">Birkhadem</p>
+                  <p className="text-2xl font-bold text-gray-800">Temple Tacos</p>
                   <p className="text-xl text-gray-600">Algiers, Algeria</p>
                 </div>
                 
                 <div className="pt-4">
                   <a 
-                    href="https://www.google.com/maps/place/R'tacos+birkhadem/@36.7213817,3.0428098,17z"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#"
+                    onClick={(event) => event.preventDefault()}
                     className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-lg"
                   >
                     📍 Get Directions
@@ -144,12 +143,11 @@ const Info = () => {
               </p>
 
               <a 
-                href="https://www.instagram.com/rtacos_birkhadem?igsh=MTh1NWg5NXBzbHM5cA=="
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(event) => event.preventDefault()}
                 className="flex items-center gap-4 bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white p-5 rounded-xl font-bold transition-all hover:scale-105 shadow-lg"
               >
-                <img src="/instagram.jpg" alt="Instagram" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />
+                <img src="/instagram.png" alt="Instagram" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />
                 <div className="flex-1 text-left">
                   <p className="text-sm opacity-90">Follow us on</p>
                   <p className="text-xl font-bold">Instagram</p>
@@ -158,12 +156,11 @@ const Info = () => {
               </a>
               
               <a 
-                href="https://www.facebook.com/profile.php?id=61565803031735&mibextid=ZbWKwL"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(event) => event.preventDefault()}
                 className="flex items-center gap-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white p-5 rounded-xl font-bold transition-all hover:scale-105 shadow-lg"
               >
-                <img src="/facebook.jpg" alt="Facebook" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />
+                <img src="/facebook.png" alt="Facebook" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />
                 <div className="flex-1 text-left">
                   <p className="text-sm opacity-90">Like us on</p>
                   <p className="text-xl font-bold">Facebook</p>
@@ -174,11 +171,11 @@ const Info = () => {
               <div className="pt-4 border-t-2 border-gray-200">
                 <p className="text-center text-gray-600 mb-3">Contact us directly</p>
                 <div className="space-y-2">
-                  <a href="tel:0549415993" className="block text-center bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold transition-all">
-                    📞 0549 41 59 93
+                  <a href="tel:0598620000" className="block text-center bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold transition-all">
+                    📞 05 98 62 00 00
                   </a>
-                  <a href="mailto:rtacosbirkhadem2024@gmail.com" className="block text-center bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold transition-all text-sm break-all px-2">
-                    ✉️ rtacosbirkhadem2024@gmail.com
+                  <a href="mailto:contact@templetacos.com" className="block text-center bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold transition-all text-sm break-all px-2">
+                    ✉️ contact@templetacos.com
                   </a>
                 </div>
               </div>
@@ -188,7 +185,7 @@ const Info = () => {
 
         {/* About Section */}
         <div className="bg-gradient-to-r from-red-600 via-orange-600 to-yellow-600 rounded-2xl p-8 md:p-12 shadow-2xl text-center text-white">
-          <h3 className="text-4xl font-bold mb-6">Why Choose R'tacos?</h3>
+          <h3 className="text-4xl font-bold mb-6">Why Choose Temple Tacos?</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <div>
               <div className="text-5xl mb-4">🌟</div>

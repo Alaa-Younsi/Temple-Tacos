@@ -12,16 +12,16 @@ const Contact = () => {
           </h3>
           <div className="space-y-3">
             <a 
-              href="tel:0549415993" 
+              href="tel:0598620000" 
               className="block text-center text-white text-xl font-semibold bg-white/20 hover:bg-white/30 transition-all duration-300 py-3 rounded-lg"
             >
-              0549 41 59 93
+              05 98 62 00 00
             </a>
             <a 
-              href="tel:0656415993" 
+              href="tel:0698450000" 
               className="block text-center text-white text-xl font-semibold bg-white/20 hover:bg-white/30 transition-all duration-300 py-3 rounded-lg"
             >
-              0656 41 59 93
+              06 98 45 00 00
             </a>
           </div>
         </div>
@@ -32,10 +32,10 @@ const Contact = () => {
             ✉️ Email
           </h3>
           <a 
-            href="mailto:rtacosbirkhadem2024@gmail.com"
+            href="mailto:contact@templetacos.com"
             className="block text-center text-white text-xl font-semibold bg-white/20 hover:bg-white/30 transition-all duration-300 py-3 rounded-lg break-all"
           >
-            rtacosbirkhadem2024@gmail.com
+            contact@templetacos.com
           </a>
         </div>
 

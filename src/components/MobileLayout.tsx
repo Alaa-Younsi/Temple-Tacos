@@ -36,12 +36,12 @@ const MobileLayout = () => {
         <div className="flex items-center gap-4">
           <img 
             src="/icon.png" 
-            alt="R'tacos Logo" 
+            alt="Temple Tacos Logo" 
             className="w-16 h-16 object-contain border-4 border-red-600 rounded-full bg-white p-1"
           />
           <div>
-            <h1 className="text-3xl font-bold text-white drop-shadow-lg">R'tacos</h1>
-            <p className="text-white/90 font-semibold">Birkhadem</p>
+            <h1 className="text-3xl font-bold text-white drop-shadow-lg">Temple Tacos</h1>
+            <p className="text-white/90 font-semibold">Taco Place</p>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ const MobileLayout = () => {
       </div>
 
       {/* Content Area */}
-      <div className="flex-1 overflow-y-auto hide-scrollbar bg-white">
+      <div className="flex-1 overflow-y-auto hide-scrollbar bg-white -mt-4">
         {renderContent()}
       </div>
     </div>

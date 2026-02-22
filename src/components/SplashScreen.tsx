@@ -6,19 +6,19 @@ const SplashScreen = () => {
         <div className="mb-8 animate-pulse">
           <img 
             src="/icon.png" 
-            alt="R'tacos Logo" 
+            alt="Temple Tacos Logo" 
             className="w-32 md:w-40 h-auto mx-auto drop-shadow-[0_0_50px_rgba(239,68,68,0.8)]"
           />
         </div>
         
         {/* Title */}
         <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-pink-500 via-red-500 to-orange-500 bg-clip-text text-transparent animate-fadeIn">
-          R'tacos
+          Temple Tacos
         </h1>
         
         {/* Subtitle */}
         <p className="text-2xl md:text-3xl text-gray-300 font-light tracking-wider animate-slideUp">
-          Birkhadem
+          Taco Place
         </p>
         
         {/* Loading dots */}

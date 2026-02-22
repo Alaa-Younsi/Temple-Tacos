@@ -6,7 +6,7 @@ const Menu = () => {
       </h2>
       <div className="flex justify-center">
         <img 
-          src="/menu.jpg" 
+          src="/menu.png" 
           alt="Menu" 
           className="max-w-full h-auto rounded-xl shadow-2xl border-4 border-red-500"
         />

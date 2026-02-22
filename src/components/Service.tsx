@@ -1,22 +1,22 @@
 const Service = () => {
   const services = [
     {
-      image: '/image1.jpg',
+      image: '/image1.png',
       title: 'Tacos',
       description: 'Delicious tacos with various fillings'
     },
     {
-      image: '/image3.jpg',
+      image: '/image3.png',
       title: 'Special Meals',
       description: 'Our signature dishes'
     },
     {
-      image: '/image4.jpg',
+      image: '/image4.png',
       title: 'Fresh Ingredients',
       description: 'Always fresh, always tasty'
     },
     {
-      image: '/image5.jpg',
+      image: '/image5.png',
       title: 'Fast Service',
       description: 'Quick and efficient'
     }

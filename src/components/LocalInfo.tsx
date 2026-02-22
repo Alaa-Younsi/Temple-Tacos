@@ -8,9 +8,8 @@ const LocalInfo = () => {
       <div className="absolute bottom-2 right-2 w-8 h-8 border-r-4 border-b-4 border-yellow-300 z-10"></div>
       
       <a 
-        href="https://www.google.com/maps/place/R'tacos+birkhadem/@36.7213817,3.0428098,17z/data=!3m1!4b1!4m6!3m5!1s0x128fb212c0d2a3bf:0xfe7c19722ace9d47!8m2!3d36.7213817!4d3.0453847!16s%2Fg%2F11fx2fhpfx?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="#"
+        onClick={(event) => event.preventDefault()}
         className="block w-full h-full relative"
       >
         <img 

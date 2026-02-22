@@ -27,31 +27,29 @@ const Info = () => {
           </h3>
           <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-4 rounded-xl shadow-lg border-4 border-purple-600">
             <p className="text-white font-semibold text-lg mb-2">Address</p>
-            <p className="text-white">Birkhadem, Algiers</p>
+            <p className="text-white">Temple Tacos, Algiers</p>
           </div>
           
           {/* Social Media */}
           <div className="space-y-3">
             <a 
-              href="https://www.instagram.com/rtacos_birkhadem?igsh=MTh1NWg5NXBzbHM5cA=="
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={(event) => event.preventDefault()}
               className="block bg-gradient-to-r from-pink-500 to-purple-500 p-4 rounded-xl shadow-lg border-4 border-pink-600 hover:scale-105 transition-transform duration-300"
             >
               <div className="flex items-center justify-center gap-3">
-                <img src="/instagram.jpg" alt="Instagram" className="w-8 h-8 rounded-full" />
+                <img src="/instagram.png" alt="Instagram" className="w-8 h-8 rounded-full" />
                 <span className="text-white font-bold text-lg">Instagram</span>
               </div>
             </a>
             
             <a 
-              href="https://www.facebook.com/profile.php?id=61565803031735&mibextid=ZbWKwL"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={(event) => event.preventDefault()}
               className="block bg-gradient-to-r from-blue-500 to-blue-600 p-4 rounded-xl shadow-lg border-4 border-blue-700 hover:scale-105 transition-transform duration-300"
             >
               <div className="flex items-center justify-center gap-3">
-                <img src="/facebook.jpg" alt="Facebook" className="w-8 h-8 rounded-full" />
+                <img src="/facebook.png" alt="Facebook" className="w-8 h-8 rounded-full" />
                 <span className="text-white font-bold text-lg">Facebook</span>
               </div>
             </a>

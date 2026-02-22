@@ -14,13 +14,13 @@ const SplashScreen = () => {
           <div className="absolute inset-0 animate-ping opacity-20">
             <img 
               src="/icon.png" 
-              alt="R'tacos Logo" 
+              alt="Temple Tacos Logo" 
               className="w-32 md:w-48 h-auto mx-auto"
             />
           </div>
           <img 
             src="/icon.png" 
-            alt="R'tacos Logo" 
+            alt="Temple Tacos Logo" 
             className="relative w-32 md:w-48 h-auto mx-auto animate-float drop-shadow-[0_0_80px_rgba(239,68,68,0.9)]"
           />
         </div>
@@ -28,14 +28,14 @@ const SplashScreen = () => {
         {/* Title with gradient animation */}
         <h1 className="text-6xl md:text-8xl font-black mb-6 animate-fadeIn tracking-tight">
           <span className="bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text text-transparent animate-gradient-x">
-            R'tacos
+            Temple Tacos
           </span>
         </h1>
         
         {/* Subtitle with slide animation */}
         <div className="animate-slideUp space-y-2 mb-8">
           <p className="text-3xl md:text-4xl text-orange-200 font-bold tracking-widest">
-            Birkhadem
+            Taco Place
           </p>
           <p className="text-xl md:text-2xl text-orange-300/80 font-light italic">
             Authentic Flavors, Modern Twist

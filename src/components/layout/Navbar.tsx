@@ -44,8 +44,8 @@ const Navbar = ({ activeTab, setActiveTab }: NavbarProps) => {
           <div className="flex items-center gap-3">
             <img src="/icon.png" alt="Logo" className="w-12 h-12 rounded-full border-2 border-white shadow-lg" />
             <div>
-              <h1 className="text-2xl font-black text-white">R'tacos</h1>
-              <p className="text-xs text-white/90">Birkhadem</p>
+              <h1 className="text-2xl font-black text-white">Temple Tacos</h1>
+              <p className="text-xs text-white/90">Taco Place</p>
             </div>
           </div>
           
