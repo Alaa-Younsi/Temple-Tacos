@@ -107,6 +107,10 @@ npm run build
 npm run preview
 ```
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Future Improvement Idea
 
 I can extend this project by adding a full **order-taking system**, including:
