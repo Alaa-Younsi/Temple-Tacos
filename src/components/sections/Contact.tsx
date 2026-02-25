@@ -93,7 +93,7 @@ const Contact = () => {
                 onClick={(event) => event.preventDefault()}
                 className="flex items-center justify-center gap-3 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white py-4 px-6 rounded-xl font-bold transition-all duration-300 hover:scale-105 shadow-lg"
               >
-                <img src="/instagram.png" alt="Instagram" className="w-6 h-6 rounded-full" />
+                <img src="/instagram.webp" alt="Instagram" loading="lazy" decoding="async" className="w-6 h-6 rounded-full" />
                 <span>Instagram</span>
               </a>
               
@@ -102,7 +102,7 @@ const Contact = () => {
                 onClick={(event) => event.preventDefault()}
                 className="flex items-center justify-center gap-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white py-4 px-6 rounded-xl font-bold transition-all duration-300 hover:scale-105 shadow-lg"
               >
-                <img src="/facebook.png" alt="Facebook" className="w-6 h-6 rounded-full" />
+                <img src="/facebook.webp" alt="Facebook" loading="lazy" decoding="async" className="w-6 h-6 rounded-full" />
                 <span>Facebook</span>
               </a>
             </div>
@@ -126,8 +126,10 @@ const Contact = () => {
               className="block relative group"
             >
               <img 
-                src="/maps copy.png" 
+                src="/maps copy.webp" 
                 alt="Location Map" 
+                loading="lazy"
+                decoding="async"
                 className="w-full h-96 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-12">

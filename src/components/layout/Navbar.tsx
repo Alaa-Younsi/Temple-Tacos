@@ -42,7 +42,7 @@ const Navbar = ({ activeTab, setActiveTab }: NavbarProps) => {
       <nav className="md:hidden fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-red-600 to-orange-600 shadow-xl">
         <div className="flex items-center justify-between px-4 py-3">
           <div className="flex items-center gap-3">
-            <img src="/icon.png" alt="Logo" className="w-12 h-12 rounded-full border-2 border-white shadow-lg" />
+            <img src="/icon.webp" alt="Logo" loading="eager" decoding="sync" fetchPriority="high" className="w-12 h-12 rounded-full border-2 border-white shadow-lg" />
             <div>
               <h1 className="text-2xl font-black text-white">Temple Tacos</h1>
               <p className="text-xs text-white/90">Taco Place</p>

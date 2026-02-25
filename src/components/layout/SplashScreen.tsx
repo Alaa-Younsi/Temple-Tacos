@@ -13,14 +13,20 @@ const SplashScreen = () => {
         <div className="mb-8 relative">
           <div className="absolute inset-0 animate-ping opacity-20">
             <img 
-              src="/icon.png" 
+              src="/icon.webp" 
               alt="Temple Tacos Logo" 
+              loading="eager"
+              decoding="sync"
+              fetchPriority="high"
               className="w-32 md:w-48 h-auto mx-auto"
             />
           </div>
           <img 
-            src="/icon.png" 
+            src="/icon.webp" 
             alt="Temple Tacos Logo" 
+            loading="eager"
+            decoding="sync"
+            fetchPriority="high"
             className="relative w-32 md:w-48 h-auto mx-auto animate-float drop-shadow-[0_0_80px_rgba(239,68,68,0.9)]"
           />
         </div>

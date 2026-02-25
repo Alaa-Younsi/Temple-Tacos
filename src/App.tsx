@@ -70,7 +70,7 @@ function App() {
       <footer className="bg-gradient-to-r from-slate-900 via-red-900 to-orange-900 text-white py-8 px-4">
         <div className="w-full text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <img src="/icon.png" alt="Temple Tacos" className="w-12 h-12 rounded-full border-2 border-white shadow-lg" />
+            <img src="/icon.webp" alt="Temple Tacos" loading="lazy" decoding="async" className="w-12 h-12 rounded-full border-2 border-white shadow-lg" />
             <h3 className="text-2xl font-bold">Temple Tacos</h3>
           </div>
           <p className="text-orange-200 mb-4">Authentic Flavors, Modern Twist</p>

@@ -22,8 +22,11 @@ const Menu = () => {
           <div className="absolute -inset-1 bg-gradient-to-r from-red-600 via-orange-600 to-yellow-600 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
           <div className="relative">
             <img 
-              src="/menu.png" 
+              src="/menu.webp" 
               alt="Menu" 
+              loading="eager"
+              decoding="async"
+              fetchPriority="high"
               className="w-full h-auto rounded-2xl shadow-2xl border-4 border-white"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-8">
@@ -43,8 +46,10 @@ const Menu = () => {
             <div key={num} className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
               <div className="aspect-square overflow-hidden">
                 <img 
-                  src={[3, 4, 5, 7, 12].includes(num) ? `/image${num}.png` : `/image${num}.jpg`}
+                  src={`/image${num}.webp`}
                   alt={`Dish ${num}`}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>

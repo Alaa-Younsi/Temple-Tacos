@@ -13,8 +13,11 @@ const Header = () => {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-orange-500 rounded-full blur-xl opacity-75 group-hover:opacity-100 transition-opacity"></div>
             <img 
-              src="/icon.png" 
+              src="/icon.webp" 
               alt="Temple Tacos Logo"
+              loading="eager"
+              decoding="sync"
+              fetchPriority="high"
               className="relative w-32 h-32 object-contain rounded-full border-4 border-white shadow-2xl group-hover:scale-110 transition-transform duration-300"
             />
           </div>

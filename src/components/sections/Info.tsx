@@ -122,8 +122,8 @@ const Info = () => {
 
                 {/* Image gallery */}
                 <div className="grid grid-cols-2 gap-2 mt-6">
-                  <img src="/image8.jpg" alt="Restaurant" className="w-full h-32 object-cover rounded-lg shadow-md" />
-                  <img src="/image9.jpg" alt="Restaurant" className="w-full h-32 object-cover rounded-lg shadow-md" />
+                  <img src="/image8.webp" alt="Restaurant" loading="lazy" decoding="async" className="w-full h-32 object-cover rounded-lg shadow-md" />
+                  <img src="/image9.webp" alt="Restaurant" loading="lazy" decoding="async" className="w-full h-32 object-cover rounded-lg shadow-md" />
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@ const Info = () => {
                 onClick={(event) => event.preventDefault()}
                 className="flex items-center gap-4 bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white p-5 rounded-xl font-bold transition-all hover:scale-105 shadow-lg"
               >
-                <img src="/instagram.png" alt="Instagram" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />
+                <img src="/instagram.webp" alt="Instagram" loading="lazy" decoding="async" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />
                 <div className="flex-1 text-left">
                   <p className="text-sm opacity-90">Follow us on</p>
                   <p className="text-xl font-bold">Instagram</p>
@@ -160,7 +160,7 @@ const Info = () => {
                 onClick={(event) => event.preventDefault()}
                 className="flex items-center gap-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white p-5 rounded-xl font-bold transition-all hover:scale-105 shadow-lg"
               >
-                <img src="/facebook.png" alt="Facebook" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />
+                <img src="/facebook.webp" alt="Facebook" loading="lazy" decoding="async" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />
                 <div className="flex-1 text-left">
                   <p className="text-sm opacity-90">Like us on</p>
                   <p className="text-xl font-bold">Facebook</p>

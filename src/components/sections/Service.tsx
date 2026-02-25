@@ -1,37 +1,37 @@
 const Service = () => {
   const services = [
     {
-      image: '/image1.png',
+      image: '/image1.webp',
       title: 'Premium Tacos',
       description: 'Authentic Mexican tacos with a unique twist',
       features: ['Fresh ingredients', 'Multiple varieties', 'Signature sauces']
     },
     {
-      image: '/image3.png',
+      image: '/image3.webp',
       title: 'Special Combos',
       description: 'Complete meals that satisfy your cravings',
       features: ['Best value', 'Large portions', 'Popular choice']
     },
     {
-      image: '/image4.png',
+      image: '/image4.webp',
       title: 'Fresh Daily',
       description: 'We prepare everything fresh every day',
       features: ['No preservatives', 'Quality guaranteed', 'Made to order']
     },
     {
-      image: '/image5.png',
+      image: '/image5.webp',
       title: 'Fast Service',
       description: 'Quick preparation without compromising quality',
       features: ['Express orders', 'Efficient team', 'No long waits']
     },
     {
-      image: '/image6.jpg',
+      image: '/image6.webp',
       title: 'Dine In',
       description: 'Comfortable seating and great ambiance',
       features: ['Modern interior', 'Family friendly', 'Clean space']
     },
     {
-      image: '/image7.png',
+      image: '/image7.webp',
       title: 'Takeaway',
       description: 'Perfect packaging for on-the-go meals',
       features: ['Easy pickup', 'Stays hot', 'Eco-friendly']
@@ -66,6 +66,8 @@ const Service = () => {
               <img 
                 src={service.image} 
                 alt={service.title}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
