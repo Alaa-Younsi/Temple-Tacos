@@ -2,7 +2,7 @@
 
 ## 🌟 Live Project
 
-**Agency Website:** [https://mind-your-business-agency.vercel.app/](https://temple-tacos.vercel.app/)
+**Agency Website:** [https://temple-tacos.vercel.app/](https://temple-tacos.vercel.app/)
 
 ## 📋 Project Overview
 
