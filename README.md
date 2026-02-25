@@ -1,19 +1,24 @@
 # Temple Tacos
 
+## 🌟 Live Project
+
+**Agency Website:** [https://mind-your-business-agency.vercel.app/](https://mind-your-business-agency.vercel.app/)
+
+## 📋 Project Overview
+
 Temple Tacos is a modern restaurant showcase website project that I built as a professional full stack web developer to demonstrate UI engineering, frontend architecture, and production-level web best practices.
 
 > Important: **Temple Tacos is not a real restaurant**. This is a portfolio/demo project created to showcase my development skills.
 
-## Screenshots
+### 📸 Screenshots
 
-Add your screenshots here later:
-
-- Hero / Header view
-- Menu section
-- Services section
-- Contact section
-- Info section
-- Mobile responsive view
+![Homepage](./screenshots/homepage.png)
+![Services Section](./screenshots/services.png)
+![Blog Section](./screenshots/blog.png)
+![Homepage](./screenshots/phonehomepage.png)
+![Header Section](./screenshots/phoneheader.png)
+![Our Vision Section](./screenshots/visionphone.png)
+![Chat Bot Section](./screenshots/chatbotphone.png)
 
 ## Live Website Features
 
