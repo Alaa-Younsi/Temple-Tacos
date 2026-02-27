@@ -1,4 +1,4 @@
-# Temple Tacosfgh
+# Temple Tacos
 
 ## 🌟 Live Project
 
